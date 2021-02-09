@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.game-container {
+    max-width: 650px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 30px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .building-container {
+        .building {
+            width: 70px;
+            height: 35px;
+            background: grey;
+            margin-bottom: -60px;
+            transition: .3s;
+        }
+
+        #building1 {
+            background: green;
+            height: 35px;
+        }
+        
+        .input {
+            width: fit-content;
+            margin: 0 auto;
+
+            input {
+                width: 50px;
+                height: 50px;
+                border-radius: 30px;
+                text-align: center;
+                border: none;
+            }
+        }
+    }
+}
